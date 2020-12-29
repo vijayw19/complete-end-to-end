@@ -1,0 +1,21 @@
+[
+  {
+    "cloudName": "AzureCloud",
+    "id": "e4c766fb-541e-4703-96f7-32b3d8c2023c",
+    "isDefault": true,
+    "name": "Azure subscription 1",
+    "state": "Enabled",
+    "tenantId": "e19df73f-e6bc-4630-9ed5-49adbe497a1e",
+    "user": {
+      "name": "vijayw19_certifications@outlook.com",
+      "type": "user"
+    }
+  }
+]
+
+
+
+
+---------------------------------
+az configure --defaults group=amvitech location=westus
+PS C:\Users\vyadav5> az appservice plan create --name amvitech location=westus

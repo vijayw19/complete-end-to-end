@@ -1,0 +1,28 @@
+docker run -d -p 3002:3000 vijayw19-node-docker:latest
+
+docker run -d -p 3002:3000 amvitech-node-docker:latest
+docker run -d -p 8087:8080 amvitech-backend:latest
+
+
+docker run -d -p 3002:3000 amvitech-react:latest
+
+docker run -d -p 3002:3000 amvitech-frontend:latest
+
+docker run -d -p 21017:21017 amvitech-backend:latest
+
+
+
+-------------------
+docker push vijayw19/amvitech-frontend
+
+
+docker tag amvitech-frontend vijayw19/amvitech-frontend
+
+docker tag amvitech-backend vijayw19/amvitech-backend
+
+
+13039877
+
+
+
+--
